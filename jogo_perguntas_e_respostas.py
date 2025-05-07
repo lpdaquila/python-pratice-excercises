@@ -11,7 +11,7 @@ perguntas = [
     },
     {
     'pergunta': 'Quanto é o módulo de 10 % 2 ?',
-    'opcoes': ['7', '4', '0', '1', '9'],
+    'opcoes': ['7', '4', '0', '1', '10'],
     'resposta': '0',
     },
 ]
