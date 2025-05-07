@@ -10,8 +10,8 @@ products = [
 
 # map
 new_mapped_products = [
-    {**product, 'price': product['price'] * 1.1} 
-    if product['price'] >= 20 else {**product} 
+    {**product, 'price': product['price'] * 1.1} # function
+    if product['price'] >= 20 else {**product} # condition
     for product in products
 ]
 
@@ -21,10 +21,10 @@ print()
 
 # filter 
 new_filtered_products = [
-    {**product, 'price': product['price'] * 1.1}
-    if product['price'] >= 20 else {**product}
+    {**product, 'price': product['price'] * 1.1} # function
+    if product['price'] >= 20 else {**product} # condition
     for product in products 
-    if product['price'] >= 20
+    if product['price'] >= 20 # filter
 ]
 
 print('Filtered w/ pprint')
