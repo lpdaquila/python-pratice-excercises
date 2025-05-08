@@ -1,5 +1,4 @@
-import copy
-from data import products
+import data.products as products
 # copy, sorted, Products.sort
 # Exercícios
 # Aumente os preços dos Products a seguir em 10%
