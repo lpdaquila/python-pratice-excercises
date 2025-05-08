@@ -1,3 +1,4 @@
-## Academic Topics for Python Study
+# Academic Topics for Python Study
 
-# Just made this repo to put examples, excercises, minigames, etc 
+## Just made this repo to put examples, excercises, minigames, etc 
+
