@@ -12,7 +12,7 @@ escopo()
 print('x fora da funcao:', x)
 exit()
 
-def soma(x, y, z=None):
+def summ(x, y, z=None):
     if z is not None:
         print('x=%d + y=%d + z=%d' % (x, y, z), '|', 'x+y+z=', x + y + z)
     else:
@@ -20,7 +20,7 @@ def soma(x, y, z=None):
         
         
 
-soma(1, 2)
-soma(y=2, x=1, z=3)
-soma(100, 200)
-# soma(y=1, 2) # Error
+summ(1, 2)
+summ(y=2, x=1, z=3)
+summ(100, 200)
+# summ(y=1, 2) # Error

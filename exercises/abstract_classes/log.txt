@@ -1,0 +1,6 @@
+Error: oh no! (LogFileMixin)
+Success: yepsy! (LogFileMixin)
+Success: Iphone is on! (Smartphone)
+Error: Galaxy S is off! (Smartphone)
+Error: Iphone is off! (Smartphone)
+Success: Galaxy S is on! (Smartphone)
