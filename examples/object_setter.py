@@ -6,13 +6,13 @@ class Connection:
         self.password = None
         # self = instance method
         
-    def set_user(self, user):
+    def set_user(self, user):   
         self.user = user
         
     def set_password(self, password):
         self.password = password
         
-    @classmethod
+    @classmethod # constructor
     def create_user_auth(cls, user, password):
         connection = cls()
         connection.user = user
